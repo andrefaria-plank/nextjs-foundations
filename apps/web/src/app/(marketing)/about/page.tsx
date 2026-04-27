@@ -6,7 +6,7 @@ async function getAboutData() {
  
 export default async function AboutPage() {
     // Uncomment to test error boundary
-  throw new Error('Test error boundary')
+//   throw new Error('Test error boundary')
 
   const data = await getAboutData()
   
